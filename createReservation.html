@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "createReservation.css">
+        <title>Reservations</title>
+    </head>
+    <body>
+        <header>
+            <img src = "Asset 16@4x.png" style = "width: 300px; height: 75px;">\
+            <h2>Little Lemon: A Refreshing Twist on Tradition.</h2>
+        </header>
+        <nav>
+            <ul>
+                <li><a href= "homepage.html">Home</a></li>
+                <li><a href= "menu.html">Menu</a></li>
+                <li><a a href = "createReservation.html">Create Reservation</a></li>
+                <li><a href= "about.html">About</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form>
+                <label for "firstName">First Name</label>
+                <input type = "text" id = "firstName" name = "firstName">
+                <br>
+                <label for "lastName">Last Name</label>
+                <input type = "text" id = "lastName" name = "lastName">
+                <br>
+                <label for "chooseDate">Date and Time of Reservation</label>
+                <input type = "datetime-local" id = "chooseDate" name = "chooseDate">
+                <br>
+                <label for "numPeople"># of People</label>
+                <input type = "number" id = "numPeople" name = "numPeople" required min="1" max="8">
+                <br>
+                <input type="radio" id="two" name="table_size" value="two">
+                <label for="two">2-Person Table</label><br>
+                <input type="radio" id="four" name="table_size" value="four">
+                <label for="four">4-Person Table</label><br>
+                <input type="radio" id="eight" name="table_size" value="eight">
+                <label for="eight">8-Person Table</label>
+                <br>
+                <label for "mail">Email Address</label>
+                <input type = "email" id = "mail" name = "mail">
+                <br>
+                <button type="submit">Request Reservation</button>
+                <button type="reset">Reset</button>
+            </form>
+
+        </main>
+        <footer>
+            <img src = "Asset 14@4x.png" style = "width: 300px; height: 75px;">
+            <ul>
+                <li><a href= "homepage.html">Home</a></li>
+                <li><a href= "menu.html">Menu</a></li>
+                <li><a a href = "createReservation.html">Create Reservation</a></li>
+                <li><a href= "about.html">About</a></li>
+            </ul>
+
+            <div>
+                <h3>Contact</h3>
+                <p> 123 Random Road, Chicago, IL, 12345<br>
+                    United States<br>
+                    +1 (123) - 456 - 7890<br>
+                    support@littlelemon.com
+                </p>
+            </div>
+
+            <h5> This is a project for Meta Front-End certification. Created by Asef Ajmain.</h5>
+        </footer>
+    </body>
+</html>
